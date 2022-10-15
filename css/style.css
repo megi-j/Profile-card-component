@@ -1,0 +1,93 @@
+body {
+    height: 100vh;
+    background-color: hsl(185, 75%, 39%);
+    background-image: url('/images/bg-pattern-top.svg'), url('/images/bg-pattern-bottom.svg');
+    background-position: right 55vw bottom 35vh, 47vw 54vh;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    width: 350px;
+    height: 374px;
+    background-color: #fff;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    /* position: relative; */
+}
+.card-bg {
+    width: 100%;
+    height: 140px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.victor {
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+    background-color: black;
+    /* position: absolute; */
+    /* margin-top: -50px;
+    margin-left: auto;
+    margin-right: auto;
+    */
+}
+.victor img {
+    border-radius: 50%;
+    width: 100%;
+    border: 5px solid #fff;
+}
+h2 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #2E3349;
+    
+}
+span {
+    font-size: 18px;
+    color:#6B7082;
+    font-weight: 400;
+
+}
+h6{
+    font-size: 14px;
+    color:#6B7082;
+    
+}
+.line {
+    width: 100%;
+    height: 1px;
+    background-color: #E8E9EC;
+    
+}
+.amount {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 24px;
+}
+.amount h3 {
+    font-size: 18px;
+    font-weight: 700;
+    color:#2E3349;
+    letter-spacing: 1.5px;
+}
+.amount p {
+    font-size: 10px;
+    font-weight: 400;
+    color: #6B7082;
+    
+}
+.followers, .likes, .photos {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
