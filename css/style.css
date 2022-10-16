@@ -20,7 +20,6 @@ main{
     justify-content: space-between;
     flex-direction: column;
     align-items: center;
-    /* position: relative; */
 }
 .card-bg {
     width: 100%;
@@ -33,11 +32,6 @@ main{
     height: 96px;
     border-radius: 50%;
     background-color: black;
-    /* position: absolute; */
-    /* margin-top: -50px;
-    margin-left: auto;
-    margin-right: auto;
-    */
     margin-top: -80px;
 }
 .victor img {
@@ -75,7 +69,6 @@ h6{
     
     display: flex;
     justify-content: space-around;
-    /* padding-bottom: 24px; */
     border-top: 1px solid#E8E9EC;
     padding-top: 24px;
     padding-bottom: 24px;
@@ -101,4 +94,9 @@ h6{
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+}
+@media (max-width: 375px){
+    main {
+        width: 326px;
+    }
 }
